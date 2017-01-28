@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@android:color/darker_gray"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_marginRight="16dp"
+            android:transitionName="transition"
+            android:id="@+id/first_box"
+            android:padding="4dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BCS2"
+                android:gravity="center"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:id="@+id/menu_text_short"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:id="@+id/name"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-light"
+                android:text="Bachelor of computer Science" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

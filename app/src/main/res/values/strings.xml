@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">timeBoard</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="team_title">Haikarose software lab</string>
+    <string name="version_title">version 1.0</string>
+    <string name="about_menu">About</string>
+    <string name="company">Haikarose</string>
+    <string name="contact_title">Contacts</string>
+    <string name="phone_title">Phone</string>
+    <string name="phone">+255687374009</string>
+    <string name="email_title">Email</string>
+    <string name="email">haikarose-love@gmail.com</string>
+    <string name="copyrights_title">Copyrights</string>
+    <string name="copyrights">\u00a9 2016 Haikarose lab</string>
+    <string name="about_message">TimeBoard is the proud product of Haikarose software laboratory.</string>
+    <string name="app_image_viewer">Image viewer</string>
+    <string name="report_problem_menu">Report problem</string>
+    <string name="invite_friend_menu">Invite friends</string>
+
+    <string name="no_connection">Couldnt connect!!</string>
+    <string name="network_problem">Please make sure data connection is on, Network problem, Please try again later!!</string>
+    <string name="banner_id">ca-app-pub-2816298192313243/5763722610</string>
+    <string name="interstial_id">ca-app-pub-2816298192313243/9756283414</string>
+    <string name="poor_connection">Couldnt connect , Either No enough data package or poor connection, please retry </string>
+</resources>
